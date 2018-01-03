@@ -754,3 +754,4 @@ bot.on("messageCreate", (msg) => {
 });
 bot.connect();
 
+client.login(process.env.BOT_TOKEN);
