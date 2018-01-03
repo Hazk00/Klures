@@ -752,6 +752,4 @@ bot.on("messageCreate", (msg) => {
         bot.createMessage(msg.channel.id, "http://warframe.wikia.com/wiki/Wildfire");
     }
 });
-bot.connect();
-
-client.login(process.env.BOT_TOKEN);
+bot.connect(process.env.BOT_TOKEN);
