@@ -293,4 +293,16 @@ client.on("message", (message) => {
   }
 });
 
+client.on("message", (message) => {
+  if (message.content.startsWith("@Unamed_#1116 ")) {
+    message.channel.send("Chama esse merda não!");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("@🅱otmpro#0874 ")) {
+    message.channel.send("Responde seu gordo!");
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
