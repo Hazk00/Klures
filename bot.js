@@ -5,6 +5,115 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Chapa Metálica]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Chapa_Met%C3%A1lica");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Cristal de Argon]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Cristal_de_Argon");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Circuitos]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Circuitos");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Módulo de Controle]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/M%C3%B3dulo_de_Controle");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Criótico]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Cri%C3%B3tico");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Ferrite]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Ferrite");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Gálio]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/G%C3%A1lio");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Mórficos]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/M%C3%B3rficos");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Nano Esporos]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Nano_Esporos");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Sensores Neurais]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Sensores_Neurais");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Neurodes]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Neurodes");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Célula Orokin]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/C%C3%A9lula_Orokin");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Oxium]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Oxium");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Plastídeos]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Plast%C3%ADdeos");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Pacote de Polímeros]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Pacote_de_Pol%C3%ADmeros");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Rubedo]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Rubedo");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Restos]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Restos");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("[Tellurium]")) {
+    message.channel.send("http://pt-br.warframe.wikia.com/wiki/Tellurium");
+  }
+});
+
 client.on("message", (message) => {
   if (message.content.startsWith("[Armored Agility]")) {
     message.channel.send("http://warframe.wikia.com/wiki/Armored_Agility");
@@ -290,18 +399,6 @@ client.on("message", (message) => {
 client.on("message", (message) => {
   if (message.content.startsWith("[Warm Coat]")) {
     message.channel.send("http://warframe.wikia.com/wiki/Warm_Coat");
-  }
-});
-
-client.on("message", (message) => {
-  if (message.content.startsWith("@Unamed_#1116 ")) {
-    message.channel.send("Chama esse merda não!");
-  }
-});
-
-client.on("message", (message) => {
-  if (message.content.startsWith("@🅱otmpro#0874 ")) {
-    message.channel.send("Responde seu gordo!");
   }
 });
 
